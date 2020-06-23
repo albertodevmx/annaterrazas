@@ -1,0 +1,130 @@
+html,body{ height:100%; max-height:100%; font-family: 'Open Sans', sans-serif; }
+*{ margin:0; padding:0; }
+
+.cargando {
+	width: 300px;
+	height: 300px;
+	display: block;
+	background: #fff;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+/*	----------***************------- MENU ----------***************------- */
+.menu { width: 300px; height: 100%; background: #FFF; position: absolute; right: 0px; z-index: -1; background: #EEE; }
+.menu ul { padding: 50px; font-family: 'Open Sans', sans-serif; }
+.menu ul li { list-style: none; padding: 5px 0px; border-bottom: #333 1px dotted; }
+.menu ul li a { text-decoration: none; color: #333; }
+.menu ul li a:hover { color: #a51f38; }
+
+
+/*	----------***************------- PORTADA ----------***************------- */
+.portada {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+.portada__encabezado {
+	display: block;
+	width: 100%;
+	height: 70%;
+	background: #000 url(../img/fondo-portada.jpg) top center;
+	position: relative;
+}
+
+
+.portada__encabezado .iconos {
+	display: block;
+}
+
+.portada__encabezado .iconos a {
+	float: right;
+	margin: 5px;
+	height: 25px;
+	transition: 0.5s;
+}
+
+.portada__encabezado .iconos a:hover {
+	opacity: 0.3;
+}
+
+.portada__encabezado .iconos a img {
+	float: right;
+	margin: 10px;
+	height: 25px;
+}
+
+.enlace a { width: 150px; height: 50px; display: block; position: absolute; top: 25px; right: 25px; z-index: 9990; }
+.regresar a { color: #fff; width: 30px; height: 30px; background: url("../img/up.png"); display: block; position: absolute; top: 25px; right: 25px; z-index: 3000; opacity: 1;  }
+.scroll { width: 169px; position: absolute; margin: 0px auto; left:0; right:0; bottom: 30px; cursor: pointer; }
+
+.titulo {
+	color: #fff;
+	position: absolute;
+	bottom: 0px;
+	right: 10%;
+
+	background: url(../img/ana-terrazas.png) top center no-repeat;
+	background-size: contain;
+
+	width: 200px;
+	height: 45px;
+}
+
+.titulo span {
+	display: none;
+}
+
+.subtitulo {
+	color: #000;
+	position: absolute;
+	bottom: -65px;
+	right: 10%;
+
+	background: url(../img/costume-designer.png) top center no-repeat;
+	background-size: contain;
+
+	width: 170px;
+	height: 45px;
+}
+
+.subtitulo span {
+	display: none;
+}
+
+/*	----------***************------- IDEOLOGIA / resume EN ----------***************------- */
+.contenido_ideologia { width: 100%; background: #FFF; display: block; overflow: hidden; position: relative; }
+
+
+/*	----------***************------- DIFERENT ----------***************------- */
+.imagen_diferencia { width: 100%; height: 615px; display: block;	overflow: hidden; }
+.imagen_diferencia img { width: 100%; }
+.contenido_diferencia { width: 100%; height: 100%; background: #FFF; display: block; overflow: hidden; position: relative; }
+
+
+
+
+
+/*	----------***************------- CONTACT ----------***************------- */
+.imagen_contact { width: 100%; height: 615px; display: block; overflow: hidden; background: #333; }
+.imagen_contact img { width: 100%; }
+.contenido_contact {
+	padding: 30px 0px 100px 0px;
+	color: #CD4806;
+}
+
+
+
+/*	----------***************------- PIE ----------***************------- */
+.footer{ position:relative; background: #FFF; width:100%; height: 0px; z-index:3; }
