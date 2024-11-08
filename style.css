@@ -2414,7 +2414,7 @@ html, body {
   margin: 15px 0px;
 }
 
-.work__menu .enlaces a {
+.work__menu .enlaces a, .work__menu .enlaces span {
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
 }

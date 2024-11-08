@@ -82,15 +82,21 @@
 				</div>
 
 				<div class="caja tablet-1-3 enlaces">
+					<a href="#" alt="work-bayoneta.html">Bayoneta</a><br>
+					<a href="#" alt="work-hello-tomorrow.html">Hello Tomorrow</a><br>
+					<a href="#" alt="work-bardo.html">Bardo</a><br>
 					<a href="#" alt="work-spectre.html">Spectre</a><br>
-					<a href="#" alt="work-life-of-crime.html">Life of Crime</a><br>
-					<a href="#" alt="work-days-and-nights.html">Days and Nights</a>
+					<span href="#" alt="">Eddington</span><br>
+
 				</div>
 
 				<div class="caja tablet-1-3 enlaces">
+					<a href="#" alt="work-life-of-crime.html">Life of Crime</a><br>
+					<a href="#" alt="work-days-and-nights.html">Days and Nights</a>
 					<a href="#" alt="work-europa-report.html">Europa Report</a><br>
 					<a href="#" alt="work-miss-bala.html">Miss Bala</a><br>
-					<a href="#" alt="work-get-the-gringo.html">Get The Gringo</a>
+					<a href="#" alt="work-get-the-gringo.html">Get The Gringo</a><br>
+					<span href="#" alt="work-get-the-gringo.html">The Border</span>
 				</div>
 
 				<div class="caja tablet-1-3 enlaces">
@@ -106,6 +112,7 @@
 					television
 				</div>
 				<div class="caja enlaces">
+					<a href="#" alt="work-barkskins.html">Barkskins</a><br>
 					<a href="#" alt="work-the-bridge.html">The Bridge</a>
 				</div>
 			</div>
